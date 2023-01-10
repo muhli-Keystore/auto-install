@@ -19,7 +19,7 @@ pkg install git
 git clone https://github.com/muhli-Keystore/000
 cd 000
 sh auto-cmd.sh
-echo "\033[1;31m *** >> sedang membuat tools << ***
+echo "\033[1;31m *** >> sedang membuat tools << ***"
 echo "\033[1;37m"
 else
 if [ $adb = "T" ];
@@ -28,7 +28,8 @@ cd 000
 sh auto-cmd.sh
 else
 echo
-echo " kode yang di masukkan salah Y/T"
-echo " pake huruf besar"
-sh key sh
+echo " kode yang di masukkan salah"
+echo " pilih Y/T dengan huruf besar"
+sleep 5
+sh key.sh
 fi fi
