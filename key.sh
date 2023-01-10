@@ -24,6 +24,8 @@ echo "\033[1;37m"
 else
 if [ $adb = "T" ];
 then
+pkg install git
+git clone https://github.com/muhli-Keystore/000
 cd 000
 sh auto-cmd.sh
 else
