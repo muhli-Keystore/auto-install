@@ -1,3 +1,6 @@
+termux-setup-storage
+termux-setup-storage
+termux-setup-storage
 echo
 sleep 10
 clear
