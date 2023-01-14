@@ -1,6 +1,6 @@
 termux-setup-storage
 echo
-sleep 10
+sleep 5
 clear
 pkg install figlet
 echo "\033[1;37m"
@@ -19,26 +19,33 @@ echo " apabila ada update di dalam tools mohon"
 echo " riset dulu tenang data yang udah di"
 echo " download tidak akan hilang dan tetap"
 echo " masih ada di penyimpanan"
-echo " Y= iya" 
-echo " T= lewat saja"
+echo " [ Y ] iya" 
+echo " [ T ] lewat saja"
 echo
 read -p " riset tools AUTO CMD pilih Y/T : " adb
 if [ $adb = "Y" ];
 then
+echo 
+echo " update tools"
+sleep 5
 rm -rf 000
 ls && rm -rf 000
 pkg install git
 git clone https://github.com/muhli-Keystore/000
 cd 000
-sh auto-cmd.sh
 echo "\033[1;31m *** >> sedang membuat tools << ***"
 echo "\033[1;37m"
+sleep 5
+sh auto-cmd.sh
 else
 if [ $adb = "T" ];
 then
 pkg install git
 git clone https://github.com/muhli-Keystore/000
 cd 000
+echo "\033[1;31m *** >> sedang membuat tools << ***"
+echo "\033[1;37m"
+sleep 5
 sh auto-cmd.sh
 else
 echo
