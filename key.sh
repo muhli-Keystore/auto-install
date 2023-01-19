@@ -9,19 +9,28 @@ echo
 sleep 0
 echo " \033[1;33mbuka link di bawah dengan google"
 sleep 0
-echo " atau chrome untuk cek apakah ada update atau tidak"
+echo " atau chrome untuk masuk ke website resmi"
+sleep 0
+echo " dan lihat tutorial cara install script nya juga"
 sleep 0
 echo "\033[1;36m https://muhli.000webhostapp.com"
 echo 
 echo
 echo "\033[1;37m"
+sleep 0
 echo " apabila ada update di dalam tools mohon"
+sleep 0
 echo " riset dulu tenang data yang udah di"
+sleep 0
 echo " download tidak akan hilang dan tetap"
+sleep 0
 echo " masih ada di penyimpanan"
+sleep 0
 echo " [ Y ] iya" 
+sleep 0
 echo " [ T ] lewat saja"
 echo
+sleep 0
 read -p " riset tools AUTO CMD pilih Y/T : " adb
 if [ $adb = "Y" ];
 then
