@@ -2,7 +2,7 @@ termux-setup-storage
 echo
 sleep 5
 clear
-pkg install figlet
+apt install figlet
 echo "\033[1;37m"
 figlet "base muhli"
 echo
@@ -39,7 +39,7 @@ echo " update tools"
 sleep 5
 rm -rf 000
 ls && rm -rf 000
-pkg install git
+apt install git
 git clone https://github.com/muhli-Keystore/000
 cd 000
 echo "\033[1;31m *** >> sedang membuat tools << ***"
@@ -49,7 +49,7 @@ sh auto-cmd.sh
 else
 if [ $adb = "T" ];
 then
-pkg install git
+apt install git
 git clone https://github.com/muhli-Keystore/000
 cd 000
 echo "\033[1;31m *** >> sedang membuat tools << ***"
